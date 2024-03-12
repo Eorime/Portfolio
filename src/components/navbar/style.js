@@ -17,21 +17,21 @@ export const StyledLink = styled(Link)`
 `;
 
 export const NavbarLogo = styled.img`
-  width: 120px;
+  width: 110px;
   margin-left: 100px;
   margin-right: -30px;
 `;
 
 export const NavbarProjects = styled.h1`
-  font-size: 35px;
+  font-size: 30px;
   margin-left: 20px;
 `;
 
 export const NavbarAbout = styled.h1`
-  font-size: 35px;
+  font-size: 30px;
 `;
 
 export const NavbarContact = styled.h1`
-  font-size: 35px;
-  margin-right: 100px;
+  font-size: 30px;
+  margin-right: 150px;
 `;
