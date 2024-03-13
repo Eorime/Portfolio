@@ -4,6 +4,7 @@ import {
   Contacts,
   GithubImage,
   Header,
+  MailAddress,
   MailImage,
   PhoneImage,
   PhoneNumber,
@@ -16,8 +17,13 @@ import Phone from "../../assets/images/Phone.png";
 
 const Contact = () => {
   const [showNumber, setShowNumber] = useState(false);
+  const [showMail, setShowMail] = useState(false);
+
   const handleEmailClick = () => {
-    window.location.href = "mailto:elenedgebuadze83@gmail.com";
+    setShowMail(!showMail);
+    if (!showMail) {
+      window.location.href = "mailto:elenedgebuadze83@gmail.com";
+    }
   };
 
   const handlePhoneClick = () => {
@@ -40,6 +46,7 @@ const Contact = () => {
         </StyledLink>
       </Contacts>
       {showNumber && <PhoneNumber>+995 599 78 35 32</PhoneNumber>}
+      {showMail && <MailAddress>elenedgebuadze83@gmail.com</MailAddress>}
     </ContactContainer>
   );
 };

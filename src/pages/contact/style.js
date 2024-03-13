@@ -62,3 +62,10 @@ export const PhoneNumber = styled.h2`
   right: 165px;
   margin-top: -5px;
 `;
+
+export const MailAddress = styled.h2`
+  font-family: pixelFont, Arial;
+  position: absolute;
+  right: 755px;
+  margin-top: -5px;
+`;
