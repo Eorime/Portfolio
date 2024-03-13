@@ -23,6 +23,7 @@ const Contact = () => {
   const handlePhoneClick = () => {
     setShowNumber(!showNumber);
   };
+
   return (
     <ContactContainer>
       <Navbar />

@@ -1,5 +1,18 @@
+import { keyframes } from "styled-components";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+
+const bounceAnimation = keyframes`
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+`;
 
 export const ContactContainer = styled.div``;
 
@@ -12,8 +25,9 @@ export const Header = styled.h1`
   font-family: pixelFont, Arial;
   font-size: 40px;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  animation: ${bounceAnimation} 1s infinite;
 `;
 
 export const Contacts = styled.div`
@@ -32,17 +46,19 @@ export const GithubImage = styled.img`
 
 export const MailImage = styled.img`
   width: 130px;
-  margin-left: 100px;
+  margin-left: 180px;
   margin-right: 130px;
 `;
 
 export const PhoneImage = styled.img`
-  width: 130px;
-  margin-right: 200px;
+  width: 190px;
+  margin-right: 160px;
+  margin-top: -25px;
 `;
 
 export const PhoneNumber = styled.h2`
   font-family: pixelFont, Arial;
   position: absolute;
-  right: 170px;
+  right: 165px;
+  margin-top: -5px;
 `;
