@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "../../../components/navbar/Navbar";
+import { ReactContainer, ReactHeader, ReactProjectContainer } from "./style";
 
 const ReactPage = () => {
   return (
-    <div>
+    <ReactContainer>
       <Navbar />
-    </div>
+      <ReactHeader>React JS</ReactHeader>
+      <ReactProjectContainer></ReactProjectContainer>
+    </ReactContainer>
   );
 };
 
