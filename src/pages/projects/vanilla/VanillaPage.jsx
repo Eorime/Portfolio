@@ -18,16 +18,25 @@ const VanillaPage = () => {
       <Navbar />
       <VanillaHeader>Vanilla JS</VanillaHeader>
       <VanillaProjectContainer>
-        <StyledLink>
+        <StyledLink
+          to={"https://eorime.github.io/Pixel-Restaurant/index.html"}
+          target="_blank"
+        >
           <VanillaProject src={PixelRestaurant} />
         </StyledLink>
-        <StyledLink>
+        <StyledLink
+          to={"https://eorime.github.io/Tiny-Library/"}
+          target="_blank"
+        >
           <VanillaProject src={Library} />
         </StyledLink>
-        <StyledLink>
+        <StyledLink
+          to={"https://eorime.github.io/Tic-Tac-Toe/"}
+          target="_blank"
+        >
           <VanillaProject src={TicTacToe} />
         </StyledLink>
-        <StyledLink>
+        <StyledLink to={"https://eorime.github.io/Calculator/"} target="_blank">
           <VanillaProject src={Calculator} />
         </StyledLink>
       </VanillaProjectContainer>
