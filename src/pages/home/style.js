@@ -12,7 +12,7 @@ export const HomeContainer = styled.div`
 
 export const HomeHeader = styled.p`
   position: absolute;
-  margin-top: -350px;
+  margin-top: -370px;
   font-size: 50px;
 `;
 

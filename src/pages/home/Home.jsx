@@ -19,12 +19,12 @@ const Home = () => {
 
     setTimeout(() => {
       setPat(false);
-    }, 500);
+    }, 350);
   };
 
   return (
     <HomeContainer>
-      <HomeHeader>Welcome, Stranger!</HomeHeader>
+      <HomeHeader>Welcome, stranger!</HomeHeader>
       <HomeImage src={pat ? AltHomeLogo : HomeLogo} onClick={handleClick} />
       <HomeProjects to={routes.projects}>PROJECTS</HomeProjects>
       <HomeAbout to={routes.about}>ABOUT ME</HomeAbout>
