@@ -14,7 +14,7 @@ export const AboutHeader = styled.p`
 export const AboutParagraph = styled.p`
   font-size: 20px;
   position: absolute;
-  left: 300px;
+  left: 15%;
   margin-top: 170px;
   line-height: 1.5;
 `;
@@ -41,7 +41,7 @@ export const SkillsIcon = styled.img`
 export const MeIcon = styled.img`
   width: 480px;
   position: absolute;
-  right: 80px;
+  right: 3%;
   opacity: 80px;
   top: 270px;
 `;

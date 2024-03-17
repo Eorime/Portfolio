@@ -44,7 +44,7 @@ export const HomeProjects = styled(Link)`
   position: absolute;
   margin-top: 0;
   font-size: 40px;
-  left: 500px;
+  left: 20%;
   color: inherit;
   text-decoration: none;
   transition: 0.2s ease;
@@ -52,7 +52,7 @@ export const HomeProjects = styled(Link)`
 
   &: hover {
     font-size: 45px;
-    left: 480px;
+    left: 19%;
   }
 `;
 
@@ -74,7 +74,7 @@ export const HomeContact = styled(Link)`
   position: absolute;
   margin-top: 0;
   font-size: 40px;
-  right: 500px;
+  right: 20%;
   color: inherit;
   text-decoration: none;
   transition: 0.2s ease;
@@ -82,6 +82,6 @@ export const HomeContact = styled(Link)`
 
   &: hover {
     font-size: 45px;
-    right: 480px;
+    right: 19%;
   }
 `;

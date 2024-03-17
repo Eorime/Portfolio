@@ -36,7 +36,7 @@ export const Projects = styled.div`
 export const VanillaJS = styled(Link)`
   font-size: 50px;
   position: absolute;
-  left: 500px;
+  left: 20%;
   margin-top: 70px;
   color: inherit;
   text-decoration: none;
@@ -45,14 +45,14 @@ export const VanillaJS = styled(Link)`
 
   &: hover {
     font-size: 60px;
-    left: 480px;
+    left: 19%;
   }
 `;
 
 export const ReactJS = styled(Link)`
   font-size: 50px;
   position: absolute;
-  right: 500px;
+  right: 20%;
   margin-top: 70px;
   color: inherit;
   text-decoration: none;
@@ -61,7 +61,7 @@ export const ReactJS = styled(Link)`
 
   &: hover {
     font-size: 60px;
-    right: 480px;
+    right: 19%px;
   }
 `;
 
