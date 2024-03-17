@@ -14,7 +14,7 @@ export const StyledLink = styled(Link)`
 export const VanillaProjectContainer = styled.div`
   display: flex;
   justify-content: start;
-  margin-top: 200px;
+  margin-top: 170px;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;

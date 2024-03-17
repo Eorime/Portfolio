@@ -42,12 +42,14 @@ export const GithubImage = styled.img`
   width: 100px;
   height: 100px;
   margin-left: 200px;
+  margin-top: 55px;
 `;
 
 export const MailImage = styled.img`
   width: 130px;
   margin-left: 180px;
   margin-right: 130px;
+  margin-top: 50px;
 `;
 
 export const Margin = styled.p`
@@ -55,6 +57,7 @@ export const Margin = styled.p`
 `;
 
 export const PhoneImage = styled.img`
+  margin-top: 20px;
   width: 190px;
   margin-right: 160px;
 `;
