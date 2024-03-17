@@ -27,7 +27,7 @@ export const Header = styled.h1`
   text-align: center;
   margin-top: 60px;
   margin-bottom: 80px;
-  animation: ${bounceAnimation} 1s infinite;
+  animation: ${bounceAnimation} 2s infinite;
 `;
 
 export const Contacts = styled.div`

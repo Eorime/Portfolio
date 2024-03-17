@@ -1,5 +1,17 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { Link } from "react-router-dom";
+
+const bounceAnimation = keyframes`
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+`;
 
 export const HomeContainer = styled.div`
   font-family: pixelFont, Arial;
@@ -32,14 +44,15 @@ export const HomeProjects = styled(Link)`
   position: absolute;
   margin-top: 0;
   font-size: 40px;
-  right: 500px;
+  left: 500px;
   color: inherit;
   text-decoration: none;
   transition: 0.2s ease;
+  animation: ${bounceAnimation} 2s infinite;
 
   &: hover {
     font-size: 45px;
-    right: 480px;
+    left: 480px;
   }
 `;
 
@@ -50,6 +63,7 @@ export const HomeAbout = styled(Link)`
   color: inherit;
   text-decoration: none;
   transition: 0.2s ease;
+  animation: ${bounceAnimation} 2s infinite;
 
   &: hover {
     font-size: 45px;
@@ -60,10 +74,11 @@ export const HomeContact = styled(Link)`
   position: absolute;
   margin-top: 0;
   font-size: 40px;
-  left: 500px;
+  right: 500px;
   color: inherit;
   text-decoration: none;
   transition: 0.2s ease;
+  animation: ${bounceAnimation} 2s infinite;
 
   &: hover {
     font-size: 45px;

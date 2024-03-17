@@ -11,6 +11,7 @@ import PixelRestaurant from "../../../assets/images/project-screenshots/pixel-re
 import Library from "../../../assets/images/project-screenshots/library.png";
 import TicTacToe from "../../../assets/images/project-screenshots/tic-tac-toe.png";
 import Calculator from "../../../assets/images/project-screenshots/calculator.png";
+import Footer from "../../../components/footer/Footer";
 
 const VanillaPage = () => {
   return (
@@ -40,6 +41,7 @@ const VanillaPage = () => {
           <VanillaProject src={Calculator} />
         </StyledLink>
       </VanillaProjectContainer>
+      <Footer />
     </VanillaContainer>
   );
 };

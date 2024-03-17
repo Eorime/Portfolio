@@ -14,6 +14,7 @@ import Navbar from "../../components/navbar/Navbar";
 import GithubLogo from "../../assets/images/GithubLogo.png";
 import Mail from "../../assets/images/Mail.png";
 import Phone from "../../assets/images/Phone.png";
+import Footer from "../../components/footer/Footer";
 
 const Contact = () => {
   const [showNumber, setShowNumber] = useState(false);
@@ -47,6 +48,7 @@ const Contact = () => {
       </Contacts>
       {showNumber && <PhoneNumber>+995 599 78 35 32</PhoneNumber>}
       {showMail && <MailAddress>elenedgebuadze83@gmail.com</MailAddress>}
+      <Footer />
     </ContactContainer>
   );
 };
