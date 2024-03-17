@@ -43,9 +43,10 @@ const About = () => {
           href="https://freeuni.edu.ge/ge/"
           target="_blank"
           style={{ color: "black", textDecoration: "none", fontWeight: "bold" }}
+          rel="noreferrer"
         >
           Free University Of Tbilisi
-        </a>{" "}
+        </a>
         and got my Bachelor's <br></br>Degree in Communication Design. During my
         studies there, I had to participate in a mandatory class, <br></br>
         which specifically covered front-end development. This was where I had

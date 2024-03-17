@@ -6,6 +6,7 @@ import {
   Header,
   MailAddress,
   MailImage,
+  Margin,
   PhoneImage,
   PhoneNumber,
   StyledLink,
@@ -48,6 +49,7 @@ const Contact = () => {
       </Contacts>
       {showNumber && <PhoneNumber>+995 599 78 35 32</PhoneNumber>}
       {showMail && <MailAddress>elenedgebuadze83@gmail.com</MailAddress>}
+      <Margin />
       <Footer />
     </ContactContainer>
   );

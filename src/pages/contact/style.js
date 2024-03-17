@@ -48,13 +48,15 @@ export const MailImage = styled.img`
   width: 130px;
   margin-left: 180px;
   margin-right: 130px;
-  margin-bottom: 250px;
+`;
+
+export const Margin = styled.p`
+  margin-bottom: 200px;
 `;
 
 export const PhoneImage = styled.img`
   width: 190px;
   margin-right: 160px;
-  margin-top: -25px;
 `;
 
 export const PhoneNumber = styled.h2`
