@@ -22,6 +22,7 @@ export const VanillaProjectContainer = styled.div`
   height: 300px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
 
   &::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.2);

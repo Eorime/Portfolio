@@ -1,7 +1,28 @@
 import React from "react";
-import { AboutContainer, AboutHeader, AboutParagraph } from "./style";
+import {
+  AboutContainer,
+  AboutHeader,
+  AboutParagraph,
+  MeIcon,
+  SkillsContainer,
+  SkillsIcon,
+} from "./style";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
+import JS from "../../assets/images/skills/JS.png";
+import HTML from "../../assets/images/skills/HTML.png";
+import CSS from "../../assets/images/skills/CSS.png";
+import Github from "../../assets/images/skills/Github.png";
+import Git from "../../assets/images/skills/Git.png";
+import ReactLogo from "../../assets/images/skills/React.png";
+import TS from "../../assets/images/skills/TS.png";
+import VScode from "../../assets/images/skills/VScode.png";
+import StyledComponents from "../../assets/images/skills/StyledComponents.png";
+import Bootstrap from "../../assets/images/skills/Bootstrap.png";
+import Figma from "../../assets/images/skills/Figma.png";
+import Photoshop from "../../assets/images/skills/Photoshop.png";
+import Illustrator from "../../assets/images/skills/Illustrator.png";
+import Me from "../../assets/images/Me.png";
 
 const About = () => {
   return (
@@ -39,6 +60,22 @@ const About = () => {
           currently possess.{" "}
         </span>
       </AboutParagraph>
+      <SkillsContainer>
+        <SkillsIcon src={JS} />
+        <SkillsIcon src={HTML} />
+        <SkillsIcon src={CSS} />
+        <SkillsIcon src={ReactLogo} />
+        <SkillsIcon src={TS} />
+        <SkillsIcon src={Bootstrap} />
+        <SkillsIcon src={StyledComponents} />
+        <SkillsIcon src={Git} />
+        <SkillsIcon src={Github} />
+        <SkillsIcon src={VScode} />
+        <SkillsIcon src={Figma} />
+        <SkillsIcon src={Photoshop} />
+        <SkillsIcon src={Illustrator} />
+      </SkillsContainer>
+      <MeIcon src={Me} />
       <Footer />
     </AboutContainer>
   );

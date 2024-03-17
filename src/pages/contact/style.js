@@ -48,6 +48,7 @@ export const MailImage = styled.img`
   width: 130px;
   margin-left: 180px;
   margin-right: 130px;
+  margin-bottom: 250px;
 `;
 
 export const PhoneImage = styled.img`
