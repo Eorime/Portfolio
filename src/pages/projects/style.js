@@ -47,6 +47,11 @@ export const VanillaJS = styled(Link)`
     font-size: 60px;
     left: 19%;
   }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 50px;
+    margin-left: 35px;
+  }
 `;
 
 export const ReactJS = styled(Link)`
@@ -62,6 +67,11 @@ export const ReactJS = styled(Link)`
   &: hover {
     font-size: 60px;
     right: 19%px;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 220px;
+    margin-right: 30px;
   }
 `;
 

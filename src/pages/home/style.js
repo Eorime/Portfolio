@@ -54,6 +54,11 @@ export const HomeProjects = styled(Link)`
     font-size: 45px;
     left: 19%;
   }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 220px;
+    margin-left: 35px;
+  }
 `;
 
 export const HomeAbout = styled(Link)`
@@ -67,6 +72,11 @@ export const HomeAbout = styled(Link)`
 
   &: hover {
     font-size: 45px;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 420px;
+    margin-left: -5px;
   }
 `;
 
@@ -83,5 +93,10 @@ export const HomeContact = styled(Link)`
   &: hover {
     font-size: 45px;
     right: 19%;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 620px;
+    margin-right: 38px;
   }
 `;

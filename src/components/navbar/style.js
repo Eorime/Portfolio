@@ -9,11 +9,19 @@ export const NavbarContainer = styled.div`
   font-family: pixelFont, Arial;
   color: #191818;
   margin-top: 20px;
+
+  @media screen and (max-width: 500px) {
+    margin-left: -80px;
+  }
 `;
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
   color: inherit;
+
+  @media screen and (max-width: 500px) {
+    margin-right: 25px;
+  }
 `;
 
 export const NavbarLogo = styled.img`
@@ -25,13 +33,29 @@ export const NavbarLogo = styled.img`
 export const NavbarProjects = styled.h1`
   font-size: 30px;
   margin-left: 20px;
+
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+    margin-top: 40px;
+  }
 `;
 
 export const NavbarAbout = styled.h1`
   font-size: 30px;
+
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+    margin-top: 38px;
+    white-space: nowrap;
+  }
 `;
 
 export const NavbarContact = styled.h1`
   font-size: 30px;
   margin-right: 150px;
+
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+    margin-top: 40px;
+  }
 `;

@@ -40,6 +40,10 @@ export const VanillaHeader = styled.p`
   margin-top: 70px;
   position: absolute;
   left: 200px;
+
+  @media screen and (max-width: 500px) {
+    left: 55px;
+  }
 `;
 
 export const VanillaProject = styled.img`
