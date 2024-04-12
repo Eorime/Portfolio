@@ -43,6 +43,12 @@ export const GithubImage = styled.img`
   height: 100px;
   margin-left: 200px;
   margin-top: 55px;
+
+  @media screen and (max-width: 500px) {
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+  }
 `;
 
 export const MailImage = styled.img`
@@ -50,6 +56,12 @@ export const MailImage = styled.img`
   margin-left: 180px;
   margin-right: 130px;
   margin-top: 50px;
+
+  @media screen and (max-width: 500px) {
+    margin-left: 80px;
+    width: 80px;
+    height: 80px;
+  }
 `;
 
 export const Margin = styled.p`
@@ -60,6 +72,13 @@ export const PhoneImage = styled.img`
   margin-top: 20px;
   width: 190px;
   margin-right: 160px;
+
+  @media screen and (max-width: 500px) {
+    margin-top: 30px;
+    margin-left: -90px;
+    width: 110px;
+    height: 110px;
+  }
 `;
 
 export const PhoneNumber = styled.h2`

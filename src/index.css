@@ -5,4 +5,8 @@
 
 body {
   background-color: #c2e7e5b6;
+
+  @media screen and (max-width: 500px) {
+    overflow-x: hidden;
+  }
 }

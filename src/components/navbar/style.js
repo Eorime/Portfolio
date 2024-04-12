@@ -21,6 +21,7 @@ export const StyledLink = styled(Link)`
 
   @media screen and (max-width: 500px) {
     margin-right: 25px;
+    margin-left: 5px;
   }
 `;
 
@@ -28,6 +29,11 @@ export const NavbarLogo = styled.img`
   width: 110px;
   margin-left: 100px;
   margin-right: -30px;
+
+  @media screen and (max-width: 500px) {
+    width: 80px;
+    margin-top: 15px;
+  }
 `;
 
 export const NavbarProjects = styled.h1`
