@@ -11,7 +11,7 @@ export const NavbarContainer = styled.div`
   margin-top: 20px;
 
   @media screen and (max-width: 500px) {
-    margin-left: -80px;
+    margin-left: -90px;
   }
 `;
 
@@ -51,7 +51,7 @@ export const NavbarAbout = styled.h1`
 
   @media screen and (max-width: 500px) {
     font-size: 20px;
-    margin-top: 38px;
+    margin-top: 35px;
     white-space: nowrap;
   }
 `;
