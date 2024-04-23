@@ -91,6 +91,11 @@ export const PhoneNumber = styled.h2`
 export const MailAddress = styled.h2`
   font-family: pixelFont, Arial;
   position: absolute;
-  right: 755px;
+  right: 815px;
   margin-top: -5px;
+
+  @media screen and (max-width: 1500px) {
+    position: absolute;
+    right: 520px;
+  }
 `;

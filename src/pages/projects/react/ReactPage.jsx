@@ -9,6 +9,7 @@ import {
 } from "./style";
 import Footer from "../../../components/footer/Footer";
 import ImageSearch from "../../../assets/images/project-screenshots/image-search.png";
+import MovieSite from "../../../assets/images/project-screenshots/movie-site.png";
 
 const ReactPage = () => {
   return (
@@ -19,7 +20,14 @@ const ReactPage = () => {
         <StyledLink to={"https://smallimagesearch.netlify.app"} target="_blank">
           <ReactProject src={ImageSearch} />
         </StyledLink>
+        <StyledLink
+          to={"https://topmoviesandseries.netlify.app"}
+          target="_blank"
+        >
+          <ReactProject src={MovieSite} />
+        </StyledLink>
       </ReactProjectContainer>
+
       <Footer />
     </ReactContainer>
   );

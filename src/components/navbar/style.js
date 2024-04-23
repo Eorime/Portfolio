@@ -36,6 +36,18 @@ export const NavbarLogo = styled.img`
   }
 `;
 
+export const NavbarElement = styled.h1`
+  font-size: 30px;
+  margin-right: 120px;
+
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: -10px;
+    margin-top: 40px;
+  }
+`;
+
 export const NavbarProjects = styled.h1`
   font-size: 30px;
   margin-left: 20px;

@@ -3,6 +3,7 @@ import {
   NavbarAbout,
   NavbarContact,
   NavbarContainer,
+  NavbarElement,
   NavbarLogo,
   NavbarProjects,
   StyledLink,
@@ -17,13 +18,13 @@ const Navbar = () => {
         <NavbarLogo src={Logo} />
       </StyledLink>
       <StyledLink to={routes.projects}>
-        <NavbarProjects>Projects</NavbarProjects>
+        <NavbarElement>Projects</NavbarElement>
       </StyledLink>
       <StyledLink to={routes.about}>
-        <NavbarAbout>About Me</NavbarAbout>
+        <NavbarElement>About</NavbarElement>
       </StyledLink>
       <StyledLink to={routes.contact}>
-        <NavbarContact>Contact</NavbarContact>
+        <NavbarElement>Contact</NavbarElement>
       </StyledLink>
     </NavbarContainer>
   );
