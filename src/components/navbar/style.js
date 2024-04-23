@@ -47,33 +47,3 @@ export const NavbarElement = styled.h1`
     margin-top: 40px;
   }
 `;
-
-export const NavbarProjects = styled.h1`
-  font-size: 30px;
-  margin-left: 20px;
-
-  @media screen and (max-width: 500px) {
-    font-size: 20px;
-    margin-top: 40px;
-  }
-`;
-
-export const NavbarAbout = styled.h1`
-  font-size: 30px;
-
-  @media screen and (max-width: 500px) {
-    font-size: 20px;
-    margin-top: 35px;
-    white-space: nowrap;
-  }
-`;
-
-export const NavbarContact = styled.h1`
-  font-size: 30px;
-  margin-right: 150px;
-
-  @media screen and (max-width: 500px) {
-    font-size: 20px;
-    margin-top: 40px;
-  }
-`;
