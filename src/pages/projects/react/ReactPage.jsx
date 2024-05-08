@@ -10,6 +10,7 @@ import {
 import Footer from "../../../components/footer/Footer";
 import ImageSearch from "../../../assets/images/project-screenshots/image-search.png";
 import MovieSite from "../../../assets/images/project-screenshots/movie-site.png";
+import Kotoba from "../../../assets/images/project-screenshots/kotoba.png";
 
 const ReactPage = () => {
   return (
@@ -17,6 +18,9 @@ const ReactPage = () => {
       <Navbar />
       <ReactHeader>React JS</ReactHeader>
       <ReactProjectContainer>
+        <StyledLink>
+          <ReactProject src={Kotoba} />
+        </StyledLink>
         <StyledLink to={"https://smallimagesearch.netlify.app"} target="_blank">
           <ReactProject src={ImageSearch} />
         </StyledLink>
