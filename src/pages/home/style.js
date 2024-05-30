@@ -58,6 +58,7 @@ export const HomeProjects = styled(Link)`
   @media screen and (max-width: 500px) {
     margin-top: 220px;
     margin-left: 35px;
+    animation: none;
   }
 `;
 
@@ -77,6 +78,7 @@ export const HomeAbout = styled(Link)`
   @media screen and (max-width: 500px) {
     margin-top: 420px;
     margin-left: -5px;
+    animation: none;
   }
 `;
 
@@ -98,5 +100,6 @@ export const HomeContact = styled(Link)`
   @media screen and (max-width: 500px) {
     margin-top: 620px;
     margin-right: 38px;
+    animation: none;
   }
 `;

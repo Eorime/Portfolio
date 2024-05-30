@@ -51,6 +51,7 @@ export const VanillaJS = styled(Link)`
   @media screen and (max-width: 500px) {
     margin-top: 220px;
     margin-right: 30px;
+    animation: none;
   }
 `;
 
@@ -72,6 +73,7 @@ export const ReactJS = styled(Link)`
   @media screen and (max-width: 500px) {
     margin-top: 50px;
     margin-left: 35px;
+    animation: none;
   }
 `;
 
