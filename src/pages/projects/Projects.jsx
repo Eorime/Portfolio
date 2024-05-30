@@ -17,8 +17,8 @@ const Projects = () => {
         <LogoImage src={ProjectsLogo} />
       </HomeLink>
       <ProjectsHeader>PROJECTS</ProjectsHeader>
-      <VanillaJS to={routes.vanillaPage}>Vanilla JS</VanillaJS>
       <ReactJS to={routes.reactPage}>React JS</ReactJS>
+      <VanillaJS to={routes.vanillaPage}>Vanilla JS</VanillaJS>
     </ProjectsContainer>
   );
 };

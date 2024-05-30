@@ -36,27 +36,6 @@ export const Projects = styled.div`
 export const VanillaJS = styled(Link)`
   font-size: 50px;
   position: absolute;
-  left: 20%;
-  margin-top: 70px;
-  color: inherit;
-  text-decoration: none;
-  transition: 0.2s ease;
-  animation: ${bounceAnimation} 2s infinite;
-
-  &: hover {
-    font-size: 60px;
-    left: 19%;
-  }
-
-  @media screen and (max-width: 500px) {
-    margin-top: 50px;
-    margin-left: 35px;
-  }
-`;
-
-export const ReactJS = styled(Link)`
-  font-size: 50px;
-  position: absolute;
   right: 20%;
   margin-top: 70px;
   color: inherit;
@@ -66,12 +45,33 @@ export const ReactJS = styled(Link)`
 
   &: hover {
     font-size: 60px;
-    right: 19%px;
+    right: 19%;
   }
 
   @media screen and (max-width: 500px) {
     margin-top: 220px;
     margin-right: 30px;
+  }
+`;
+
+export const ReactJS = styled(Link)`
+  font-size: 50px;
+  position: absolute;
+  left: 20%;
+  margin-top: 70px;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.2s ease;
+  animation: ${bounceAnimation} 2s infinite;
+
+  &: hover {
+    font-size: 60px;
+    left: 19%px;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 50px;
+    margin-left: 35px;
   }
 `;
 

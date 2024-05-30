@@ -18,9 +18,10 @@ import ReactLogo from "../../assets/images/skills/React.png";
 import TS from "../../assets/images/skills/TS.png";
 import VScode from "../../assets/images/skills/VScode.png";
 import StyledComponents from "../../assets/images/skills/StyledComponents.png";
-import Bootstrap from "../../assets/images/skills/Bootstrap.png";
 import Figma from "../../assets/images/skills/Figma.png";
 import Photoshop from "../../assets/images/skills/Photoshop.png";
+import RestAPI from "../../assets/images/skills/rest-api-icon.webp";
+import Postman from "../../assets/images/skills/cib-postman.png";
 import Illustrator from "../../assets/images/skills/Illustrator.png";
 import Me from "../../assets/images/Me.png";
 
@@ -68,11 +69,12 @@ const About = () => {
         <SkillsIcon src={CSS} />
         <SkillsIcon src={ReactLogo} />
         <SkillsIcon src={TS} />
-        <SkillsIcon src={Bootstrap} />
-        <SkillsIcon src={StyledComponents} />
+        <SkillsIcon src={RestAPI} />
+        <SkillsIcon src={Postman} />
         <SkillsIcon src={Git} />
         <SkillsIcon src={Github} />
         <SkillsIcon src={VScode} />
+        <SkillsIcon src={StyledComponents} />
         <SkillsIcon src={Figma} />
         <SkillsIcon src={Photoshop} />
         <SkillsIcon src={Illustrator} />

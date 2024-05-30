@@ -11,6 +11,7 @@ import Footer from "../../../components/footer/Footer";
 import ImageSearch from "../../../assets/images/project-screenshots/image-search.png";
 import MovieSite from "../../../assets/images/project-screenshots/movie-site.png";
 import Kotoba from "../../../assets/images/project-screenshots/kotoba.png";
+import Wingmen from "../../../assets/images/project-screenshots/wingmen.png";
 
 const ReactPage = () => {
   return (
@@ -18,6 +19,9 @@ const ReactPage = () => {
       <Navbar />
       <ReactHeader>React JS</ReactHeader>
       <ReactProjectContainer>
+        <StyledLink to={"https://www.wingmen.ge"} target="_blank">
+          <ReactProject src={Wingmen} />
+        </StyledLink>
         <StyledLink>
           <ReactProject src={Kotoba} />
         </StyledLink>
