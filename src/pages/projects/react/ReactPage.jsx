@@ -22,7 +22,7 @@ const ReactPage = () => {
         <StyledLink to={"https://www.wingmen.ge"} target="_blank">
           <ReactProject src={Wingmen} />
         </StyledLink>
-        <StyledLink>
+        <StyledLink to={"https://kotobakanji.netlify.app"} target="_blank">
           <ReactProject src={Kotoba} />
         </StyledLink>
         <StyledLink to={"https://smallimagesearch.netlify.app"} target="_blank">
