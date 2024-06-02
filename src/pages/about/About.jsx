@@ -22,6 +22,8 @@ import Figma from "../../assets/images/skills/Figma.png";
 import Photoshop from "../../assets/images/skills/Photoshop.png";
 import RestAPI from "../../assets/images/skills/rest-api-icon.webp";
 import Postman from "../../assets/images/skills/cib-postman.png";
+import Mongo from "../../assets/images/skills/kisspng-mongodb-inc-computer-icons-nosql-database-mongodb-icons-5b45a6e229c7a3.7462248615312913621711.png";
+import NodeLogo from "../../assets/images/skills/brand_nodejs_icon_157858.png";
 import Illustrator from "../../assets/images/skills/Illustrator.png";
 import Me from "../../assets/images/Me.png";
 
@@ -69,6 +71,8 @@ const About = () => {
         <SkillsIcon src={CSS} />
         <SkillsIcon src={ReactLogo} />
         <SkillsIcon src={TS} />
+        <SkillsIcon src={NodeLogo} />
+        <SkillsIcon src={Mongo} />
         <SkillsIcon src={RestAPI} />
         <SkillsIcon src={Postman} />
         <SkillsIcon src={Git} />
