@@ -13,10 +13,18 @@ const bounceAnimation = keyframes`
     }
 `;
 
-export const ProjectsContainer = styled.div`
+export const Container = styled.div`
   font-family: pixelFont, Arial;
   text-align: center;
+`;
+
+export const ProjectsContainer = styled.div`
+  font-family: pixelFont, Arial;
+  font-size: 50px;
+  margin-top: 70px;
   color: #191818;
+  display: flex;
+  flex-direction: row;
 `;
 
 export const ProjectsHeader = styled.p`
@@ -27,10 +35,6 @@ export const ProjectsHeader = styled.p`
 export const HomeLink = styled(Link)`
   text-decoration: none;
   color: inherit;
-`;
-
-export const Projects = styled.div`
-  display: inline-block;
 `;
 
 export const VanillaJS = styled(Link)`
@@ -77,7 +81,29 @@ export const ReactJS = styled(Link)`
   }
 `;
 
+export const FullStack = styled(Link)`
+  font-size: 50px;
+  position: absolute;
+  left: 20%;
+  margin-top: 70px;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.2s ease;
+  animation: ${bounceAnimation} 2s infinite;
+
+  &: hover {
+    font-size: 60px;
+    left: 19%px;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 50px;
+    margin-left: 35px;
+    animation: none;
+  }
+`;
+
 export const LogoImage = styled.img`
-  margin-top: 100px;
+  margin-top: 50px;
   width: 200px;
 `;

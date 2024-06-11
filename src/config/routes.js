@@ -5,6 +5,7 @@ import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
 import VanillaPage from "../pages/projects/vanilla/VanillaPage";
 import ReactPage from "../pages/projects/react/ReactPage";
+import FullStackPage from "../pages/projects/fullstack/FullStackPage";
 
 export const appRoutes = [
   {
@@ -30,5 +31,9 @@ export const appRoutes = [
   {
     path: routes.reactPage,
     Component: ReactPage,
+  },
+  {
+    path: routes.fullStackPage,
+    Component: FullStackPage,
   },
 ];

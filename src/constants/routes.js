@@ -4,6 +4,7 @@ const about = "/about";
 const contact = "/contact";
 const vanillaPage = "/vanillaPage";
 const reactPage = "/reactPage";
+const fullStackPage = "/fullStackPage";
 
 export const routes = {
   home,
@@ -12,4 +13,5 @@ export const routes = {
   contact,
   vanillaPage,
   reactPage,
+  fullStackPage,
 };
