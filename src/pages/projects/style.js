@@ -21,15 +21,28 @@ export const Container = styled.div`
 export const ProjectsContainer = styled.div`
   font-family: pixelFont, Arial;
   font-size: 50px;
-  margin-top: 70px;
+  margin-top: 100px;
+  margin-left: 25px;
   color: #191818;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: -30px;
+    justify-content: space-between;
+  }
 `;
 
 export const ProjectsHeader = styled.p`
   font-size: 35px;
   margin-top: -50px;
+
+  @media screen and (max-width: 500px) {
+    font-size: 30px;
+  }
 `;
 
 export const HomeLink = styled(Link)`
@@ -39,9 +52,6 @@ export const HomeLink = styled(Link)`
 
 export const VanillaJS = styled(Link)`
   font-size: 50px;
-  position: absolute;
-  right: 20%;
-  margin-top: 70px;
   color: inherit;
   text-decoration: none;
   transition: 0.2s ease;
@@ -49,21 +59,17 @@ export const VanillaJS = styled(Link)`
 
   &: hover {
     font-size: 60px;
-    right: 19%;
   }
 
   @media screen and (max-width: 500px) {
-    margin-top: 220px;
-    margin-right: 30px;
     animation: none;
+    margin-top: 50px;
+    font-size: 26px;
   }
 `;
 
 export const ReactJS = styled(Link)`
   font-size: 50px;
-  position: absolute;
-  left: 20%;
-  margin-top: 70px;
   color: inherit;
   text-decoration: none;
   transition: 0.2s ease;
@@ -71,21 +77,17 @@ export const ReactJS = styled(Link)`
 
   &: hover {
     font-size: 60px;
-    left: 19%px;
   }
 
   @media screen and (max-width: 500px) {
-    margin-top: 50px;
-    margin-left: 35px;
     animation: none;
+    margin-top: 50px;
+    font-size: 26px;
   }
 `;
 
 export const FullStack = styled(Link)`
   font-size: 50px;
-  position: absolute;
-  left: 20%;
-  margin-top: 70px;
   color: inherit;
   text-decoration: none;
   transition: 0.2s ease;
@@ -93,17 +95,23 @@ export const FullStack = styled(Link)`
 
   &: hover {
     font-size: 60px;
-    left: 19%px;
   }
 
   @media screen and (max-width: 500px) {
-    margin-top: 50px;
-    margin-left: 35px;
     animation: none;
+    margin-top: 50px;
+    font-size: 26px;
   }
 `;
 
 export const LogoImage = styled.img`
   margin-top: 50px;
   width: 200px;
+
+  @media screen and (max-width: 500px) {
+    margin-top: 80px;
+    margin-bottom: 5px;
+
+    width: 150px;
+  }
 `;
