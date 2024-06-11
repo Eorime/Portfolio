@@ -41,7 +41,8 @@ export const ProjectsHeader = styled.p`
   margin-top: -50px;
 
   @media screen and (max-width: 500px) {
-    font-size: 30px;
+    font-size: 28px;
+    margin-top: -30px;
   }
 `;
 
@@ -85,7 +86,7 @@ export const ReactJS = styled(Link)`
 
   @media screen and (max-width: 500px) {
     animation: none;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 26px;
 
     &:hover {
@@ -123,6 +124,6 @@ export const LogoImage = styled.img`
   @media screen and (max-width: 500px) {
     margin-top: 80px;
     margin-bottom: 5px;
-    width: 150px;
+    width: 100px;
   }
 `;
