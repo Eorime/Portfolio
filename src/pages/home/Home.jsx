@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import HomeLogo from "./../../assets/images/Logo.png";
 import AltHomeLogo from "./../../assets/images/AltLogo.png";
 import {
+  Container,
   HomeAbout,
   HomeContact,
   HomeContainer,
@@ -23,13 +24,15 @@ const Home = () => {
   };
 
   return (
-    <HomeContainer>
+    <Container>
       <HomeHeader>Welcome, stranger!</HomeHeader>
-      <HomeImage src={pat ? AltHomeLogo : HomeLogo} onClick={handleClick} />
-      <HomeProjects to={routes.projects}>PROJECTS</HomeProjects>
-      <HomeAbout to={routes.about}>ABOUT ME</HomeAbout>
-      <HomeContact to={routes.contact}>CONTACT</HomeContact>
-    </HomeContainer>
+      <HomeContainer>
+        <HomeImage src={pat ? AltHomeLogo : HomeLogo} onClick={handleClick} />
+        <HomeProjects to={routes.projects}>PROJECTS</HomeProjects>
+        <HomeAbout to={routes.about}>ABOUT ME</HomeAbout>
+        <HomeContact to={routes.contact}>CONTACT</HomeContact>
+      </HomeContainer>
+    </Container>
   );
 };
 

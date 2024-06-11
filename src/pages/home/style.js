@@ -13,19 +13,31 @@ const bounceAnimation = keyframes`
     }
 `;
 
+export const Container = styled.div`
+  text-align: center;
+`;
+
 export const HomeContainer = styled.div`
   font-family: pixelFont, Arial;
   color: #191818;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const HomeHeader = styled.p`
-  position: absolute;
-  margin-top: -370px;
   font-size: 50px;
+  font-family: pixelFont, Arial;
+
+  @media screen and (max-width: 500px) {
+    font-size: 40px;
+  }
 `;
 
 export const HomeImage = styled.img`
@@ -34,10 +46,18 @@ export const HomeImage = styled.img`
   &:hover {
     cursor: pointer;
   }
+
+  @media screen and (max-width: 500px) {
+    width: 150px;
+  }
 `;
 
 export const AltHomeImage = styled.img`
   width: 200px;
+
+  @media screen and (max-width: 500px) {
+    width: 150px;
+  }
 `;
 
 export const HomeProjects = styled(Link)`
@@ -56,9 +76,10 @@ export const HomeProjects = styled(Link)`
   }
 
   @media screen and (max-width: 500px) {
-    margin-top: 220px;
-    margin-left: 35px;
     animation: none;
+    font-size: 30px;
+    margin-top: 10px;
+    position: static;
   }
 `;
 
@@ -76,9 +97,10 @@ export const HomeAbout = styled(Link)`
   }
 
   @media screen and (max-width: 500px) {
-    margin-top: 420px;
-    margin-left: -5px;
     animation: none;
+    font-size: 30px;
+    margin-top: 40px;
+    position: static;
   }
 `;
 
@@ -98,8 +120,9 @@ export const HomeContact = styled(Link)`
   }
 
   @media screen and (max-width: 500px) {
-    margin-top: 620px;
-    margin-right: 38px;
     animation: none;
+    font-size: 30px;
+    position: static;
+    margin-top: 40px;
   }
 `;

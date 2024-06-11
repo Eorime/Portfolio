@@ -65,6 +65,10 @@ export const VanillaJS = styled(Link)`
     animation: none;
     margin-top: 50px;
     font-size: 26px;
+
+    &:hover {
+      font-size: 30px;
+    }
   }
 `;
 
@@ -83,6 +87,10 @@ export const ReactJS = styled(Link)`
     animation: none;
     margin-top: 50px;
     font-size: 26px;
+
+    &:hover {
+      font-size: 30px;
+    }
   }
 `;
 
@@ -101,6 +109,10 @@ export const FullStack = styled(Link)`
     animation: none;
     margin-top: 50px;
     font-size: 26px;
+
+    &:hover {
+      font-size: 30px;
+    }
   }
 `;
 
