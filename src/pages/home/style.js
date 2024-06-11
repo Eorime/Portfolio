@@ -36,7 +36,7 @@ export const HomeHeader = styled.p`
   font-family: pixelFont, Arial;
 
   @media screen and (max-width: 500px) {
-    font-size: 40px;
+    font-size: 30px;
   }
 `;
 
@@ -48,7 +48,7 @@ export const HomeImage = styled.img`
   }
 
   @media screen and (max-width: 500px) {
-    width: 150px;
+    width: 100px;
   }
 `;
 
@@ -56,7 +56,7 @@ export const AltHomeImage = styled.img`
   width: 200px;
 
   @media screen and (max-width: 500px) {
-    width: 150px;
+    width: 100px;
   }
 `;
 
@@ -78,7 +78,7 @@ export const HomeProjects = styled(Link)`
   @media screen and (max-width: 500px) {
     animation: none;
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 40px;
     position: static;
   }
 `;
