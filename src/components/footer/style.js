@@ -5,6 +5,7 @@ export const FooterContainer = styled.div`
   color: #191818;
   padding: 20px;
   text-align: center;
+  font-family: pixelFont, Arial;
 `;
 
 export const StyledLink = styled(Link)`
