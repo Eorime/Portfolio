@@ -106,12 +106,11 @@ export const FullStack = styled(Link)`
 
 export const LogoImage = styled.img`
   margin-top: 50px;
-  width: 200px;
+  width: 180px;
 
   @media screen and (max-width: 500px) {
     margin-top: 80px;
     margin-bottom: 5px;
-
     width: 150px;
   }
 `;

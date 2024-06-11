@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const VanillaContainer = styled.div`
+export const FullStackContainer = styled.div`
   font-family: pixelFont, Arial;
   color: #191818;
 `;
@@ -11,10 +11,10 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 
-export const VanillaProjectContainer = styled.div`
+export const FullStackProjectContainer = styled.div`
   display: flex;
   justify-content: start;
-  margin-top: 170px;
+  margin-top: 150px;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
@@ -35,7 +35,7 @@ export const VanillaProjectContainer = styled.div`
   }
 `;
 
-export const VanillaHeader = styled.p`
+export const FullStackHeader = styled.p`
   font-size: 28px;
   margin-top: 70px;
   position: absolute;
@@ -46,7 +46,7 @@ export const VanillaHeader = styled.p`
   }
 `;
 
-export const VanillaProject = styled.img`
+export const FullStackProject = styled.img`
   width: 400px;
   height: 200px;
   margin: 20px;

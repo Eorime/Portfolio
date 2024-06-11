@@ -25,7 +25,7 @@ export const ReactHeader = styled.p`
 export const ReactProjectContainer = styled.div`
   display: flex;
   justify-content: start;
-  margin-top: 170px;
+  margin-top: 150px;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
@@ -33,6 +33,7 @@ export const ReactProjectContainer = styled.div`
   height: 300px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
 
   &::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.2);
