@@ -28,12 +28,12 @@ const ReactPage = () => {
         <StyledLink to={"https://smallimagesearch.netlify.app"} target="_blank">
           <ReactProject src={ImageSearch} />
         </StyledLink>
-        <StyledLink
+        {/* <StyledLink
           to={"https://topmoviesandseries.netlify.app"}
           target="_blank"
         >
           <ReactProject src={MovieSite} />
-        </StyledLink>
+        </StyledLink> */}
       </ReactProjectContainer>
 
       <Footer />
